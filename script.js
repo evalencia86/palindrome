@@ -5,11 +5,11 @@ $(function () {
 
         if (!inputWord.trim()) {
             // Input is empty
-            $(".palindrome-message").hide();
+            $("#palindrome-message").hide();
             return
         }
 
-        $(".query").text(inputWord);
+        $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
             // TODO
@@ -17,7 +17,7 @@ $(function () {
             // TODO
         }
 
-        $(".palindrome-message").show();
+        $("#palindrome-message").show();
     });
 
 });
