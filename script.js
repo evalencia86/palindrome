@@ -13,9 +13,11 @@ $(function () {
 
         if (isPalindrome(inputWord)) {
 			$("#result").append("a palindrome");
+			$("#palindrome-message").removeClass();
             $("#palindrome-message").addClass("message-green");
         } else {
 			$("#result").append("NOT a palindrome");
+			$("#palindrome-message").removeClass();
             $("#palindrome-message").addClass("message-red");
         }
 
