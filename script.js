@@ -12,10 +12,12 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-			$("#palindrome-message").toggleClass("message-green");
+			$("#palindrome-message").removeClass()
+			$("#palindrome-message").addClass("message-green");
 			$("#result").text('is a palindrome.');
         } else {
-			$("#palindrome-message").toggleClass("message-red");
+			$("#palindrome-message").removeClass()
+			$("#palindrome-message").addClass("message-red");
 			$("#result").text('is NOT a palindrome');
             
         }
