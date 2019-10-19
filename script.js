@@ -12,13 +12,13 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-			$("#result").append("a palindrome");
-			$("#palindrome-message").removeClass();
-            $("#palindrome-message").addClass("message-green");
+			$("#result")="a palindrome";
+			//$("#palindrome-message").removeClass();
+            $("#palindrome-message").toggleClass("message-green");
         } else {
 			$("#result").append("NOT a palindrome");
-			$("#palindrome-message").removeClass();
-            $("#palindrome-message").addClass("message-red");
+			//$("#palindrome-message").removeClass();
+            $("#palindrome-message").toggleClass("message-red");
         }
 
         $("#palindrome-message").show();
