@@ -13,10 +13,10 @@ $(function () {
 
         if (isPalindrome(inputWord)) {
             $("#palindrome-message").append("a palindrome");
-			$("#palindrome-message").addClass("message-blue");
+			$("#palindrome-message").add("message-blue");
         } else {
             $("#palindrome-message").append("NOT a palindrome.")
-			$("#palindrome-message").addClass("message-red");
+			$("#palindrome-message").add("message-red");
         }
 
         $("#palindrome-message").show();
