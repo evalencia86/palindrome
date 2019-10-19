@@ -12,9 +12,9 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-            $("#palindrome-message").add("message-green")
+            $("#palindrome-message")= "a palindrome."
         } else {
-            $("#palindrome-message").add("message-red")
+            $("#palindrome-message")= "NOT a palindrome."
         }
 
         $("#palindrome-message").show();
