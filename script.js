@@ -12,11 +12,11 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-            // $("#palindrome-message").append("a palindrome");
-			$("#palindrome-message").toggleClass("message-green");
+            $("#palindrome-message").append("a palindrome");
+			$("#result").addClass("message-green");
         } else {
-            // $("#palindrome-message").append("NOT a palindrome.")
-			$("#palindrome-message").toggleClass("message-red");
+            $("#palindrome-message").append("NOT a palindrome.")
+			$("#result").add("message-red");
         }
 
         $("#palindrome-message").show();
