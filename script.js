@@ -15,8 +15,8 @@ $(function () {
 			$("#result").append("a palindrome");
             $("#palindrome-message").addClass("message-green");
         } else {
-            $("#palindrome-message").append("NOT a palindrome.")
-			$("#result").add("message-red");
+			$("#result").append("NOT a palindrome");
+            $("#palindrome-message").addClass("message-red");
         }
 
         $("#palindrome-message").show();
