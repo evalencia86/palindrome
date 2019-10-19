@@ -12,8 +12,8 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-            $("#palindrome-message").append("a palindrome");
-			$("#result").addClass("message-green");
+			$("#result").append("a palindrome");
+            $("#palindrome-message").addClass("message-green");
         } else {
             $("#palindrome-message").append("NOT a palindrome.")
 			$("#result").add("message-red");
