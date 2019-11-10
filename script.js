@@ -18,8 +18,8 @@ $(function () {
         } else {
 			$("#palindrome-message").removeClass()
 			$("#palindrome-message").addClass("message-red");
-			$("#result").text('is NOT a palindrome');
-            
+			$("#result").text('is not a palindrome');
+
         }
 
         $("#palindrome-message").show();
